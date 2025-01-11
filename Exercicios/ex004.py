@@ -1,0 +1,8 @@
+n = input('Diite algo: ')
+print(f'{n} possui somente números? {n.isnumeric()}')
+print(f'{n} possui apenas letras? {n.isalpha()}')
+print(f'{n} possui letras ou números? {n.isalnum()}')
+print(f'{n} possui somente letras maiúsculas? {n.isupper()}')
+print(f'{n} possui somente letras minúsculas? {n.islower()}')
+print(f'{n} é espaço? {n.isspace()}')
+print(f'{n} possui somente a primeira letra mausúscula? {n.istitle()}')

@@ -1,0 +1,16 @@
+# Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de
+# dias pelos quais ele foi alugado. Calcule o preço a pagar.
+print('Sistema de pagamentos da Locaway')
+print('-' * 50)
+print('Informações do carro')
+marca = input('Marca do carro: ')
+precodia = float(input('Preço por dia: '))
+precokw = float(input('Preço por KW rodado: '))
+print('-' * 50)
+print('Informações do cliente')
+cliente = input('Cliente: ')
+kw = float(input('KW rodados: '))
+dias = int(input('Dias alugados: '))
+precototal = (dias * precodia) + (kw * precokw)
+print('-' * 50)
+print(f'Cliente {cliente} deve pagar R${precototal:.2f} pelo aluguel do carro {marca}')
